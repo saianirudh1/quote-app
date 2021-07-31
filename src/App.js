@@ -24,6 +24,9 @@ function App() {
           <Route path="/" exact>
             <Redirect to="/quotes" />
           </Route>
+          <Route path="/quote-app" exact>
+            <Redirect to="/quotes" />
+          </Route>
           <Route path="/quotes" exact>
             <AllQuotes />
           </Route>

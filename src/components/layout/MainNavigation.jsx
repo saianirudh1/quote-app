@@ -4,7 +4,7 @@ import classes from './MainNavigation.module.css';
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Quote Generator</div>
+      <div className={classes.logo}>My Quotes</div>
       <nav className={classes.nav}>
         <ul>
           <li>

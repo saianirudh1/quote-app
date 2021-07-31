@@ -30,8 +30,8 @@ const QuoteList = (props) => {
   return (
     <Fragment>
       <div className={classes.sorting}>
-        <button onClick={sortClickHandler}>{`Sort ${
-          isSortAscending ? 'Descending' : 'Ascending'
+        <button onClick={sortClickHandler}>{`Sort By Date ${
+          isSortAscending ? '\u2191' : '\u2193'
         }`}</button>
       </div>
       <ul className={classes.list}>
